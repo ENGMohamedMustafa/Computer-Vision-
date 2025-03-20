@@ -73,4 +73,3 @@ if upload is not None:
     with filtered_image:
         st.header("Filtered Image")
         st.image(output, channels=color, use_column_width=True)
-  
