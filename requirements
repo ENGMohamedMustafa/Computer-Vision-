@@ -16,3 +16,4 @@ imutils==0.5.4
 pyttsx3==2.90
 easyocr==1.6.2
 ultralytics==8.0.20
+DeepFace
