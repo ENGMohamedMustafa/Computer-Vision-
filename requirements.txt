@@ -1,3 +1,4 @@
+# --- Core CV/ML Libraries ---
 opencv-python==4.8.0.76
 numpy==1.23.5
 matplotlib==3.7.1
@@ -9,11 +10,26 @@ torchvision==0.14.1
 scikit-learn==1.2.2
 pandas==1.5.3
 seaborn==0.12.2
+
+# --- Face & Emotion Recognition ---
 mediapipe==0.10.3
 face-recognition==1.3.0
 dlib==19.24.0
 imutils==0.5.4
+deepface
 pyttsx3==2.90
+
+# --- OCR & Detection ---
 easyocr==1.6.2
 ultralytics==8.0.20
-DeepFace
+
+# --- NLP, LangChain & Streamlit ---
+langchain
+langchain-community
+openai
+streamlit
+faiss-cpu
+chromadb
+huggingface_hub
+tiktoken
+transformers
