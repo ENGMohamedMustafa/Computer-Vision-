@@ -1,0 +1,8 @@
+streamlit
+ultralytics==8.1.27
+opencv-python
+pandas
+plotly
+numpy
+matplotlib
+pillow
