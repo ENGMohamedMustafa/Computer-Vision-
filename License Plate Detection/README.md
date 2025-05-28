@@ -37,10 +37,16 @@ This project performs automatic detection of vehicles and their license plates f
 
 License-Plate-Detection/
 │
+
 ├── main.py # Streamlit app
+
 ├── utils.py # Core logic: detection, OCR, preprocessing
+
 ├── yolov8x.pt # YOLOv8 model weights (external)
+
 ├── requirements.txt # Dependencies
+
 ├── README.md # Documentation
+
 ├── example_images/ # Input/output samples
 
