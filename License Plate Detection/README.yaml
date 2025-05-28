@@ -1,0 +1,72 @@
+project:
+  title: "License Plate Detection & Recognition"
+  emoji: "🚗"
+  description: >
+    An advanced AI-powered web application for detecting and recognizing vehicle license plates 
+    using YOLOv8, EasyOCR, OpenCV, and Streamlit. Designed for high performance and ease of use 
+    with a simple web interface.
+
+  features:
+    - "Real-time vehicle detection using YOLOv8"
+    - "Automatic license plate localization"
+    - "OCR-based recognition with EasyOCR"
+    - "Streamlit-based interactive web interface"
+    - "Supports JPG, PNG, and WebP formats"
+
+technologies:
+  - Python 3.8+
+  - YOLOv8 (Ultralytics)
+  - OpenCV
+  - EasyOCR
+  - Streamlit
+  - NumPy
+  - Matplotlib
+
+structure:
+  - main.py: "Streamlit app interface"
+  - utils.py: "All core detection and OCR logic"
+  - yolov8x.pt: "YOLOv8 model weights"
+  - requirements.txt: "Python dependencies"
+  - example_images/: "Sample input/output images"
+
+installation:
+  clone:
+    - command: "git clone https://github.com/ENGMohamedMustafa/Computer-Vision-.git"
+    - command: "cd 'Computer-Vision-/License Plate Detection'"
+  environment:
+    - optional: true
+    - commands:
+        - "python -m venv env"
+        - "source env/bin/activate  # or env\\Scripts\\activate on Windows"
+  dependencies:
+    - command: "pip install -r requirements.txt"
+    - note: "Ensure GPU setup for EasyOCR if gpu=True"
+
+usage:
+  run_command: "streamlit run main.py"
+  app_url: "http://localhost:8501"
+  modify_model_path: "utils.py > model = YOLO('path/to/yolov8x.pt')"
+
+output_example:
+  plates_found: 2
+  plates:
+    - "ABC1234"
+    - "456XYZ"
+
+use_cases:
+  - Smart traffic monitoring
+  - Parking systems
+  - Toll automation
+  - Vehicle access control
+
+author:
+  name: "Mohamed Mustafa"
+  github: "https://github.com/ENGMohamedMustafa"
+
+license: "MIT"
+
+notes:
+  - "Ensure correct model path and format."
+  - "Supports GPU acceleration for faster processing."
+  - "Easy to extend for video stream support."
+
